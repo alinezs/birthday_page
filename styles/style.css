@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --cor-primaria: #e6ecff;
+    --cor-secundaria: #407BFF;
+    --cor-terciaria: #ffffff;
+    --cor-quartenaria: #6b6b6b;
+
+}
+*{
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: var(--cor-primaria);
+    
+}
+
+.cabecalho__menu{
+    display: flex;
+    padding: 40px 40px 40px 100px;
+    gap: 40px;
+    background-color: var(--cor-secundaria);
+    
+}
+.cabecalho__menu__link{
+    display: flex;
+    text-decoration: none;
+    color: var(--cor-primaria);
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.apresentacao_conteudo{
+    margin: 50px;
+
+}
+.apresentacao_conteudo__home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+.apresentacao_conteudo__home__titulo{
+    width: 800px;
+    color: var(--cor-secundaria);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.90rem;
+}
+
+.apresentacao_conteudo_carta{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   font-family: 'Montserrat', sans-serif;
+
+}
+.apresentacao_conteudo_carta_titulo{
+    padding: 40px;
+    color: var(--cor-secundaria);
+    font-size: 1.80rem;
+    font-weight: 700px;
+}
+.apresentacao_conteudo_carta_texto{
+    text-align: center;
+    margin: 0 40px 0 40px;
+    color: var(--cor-quartenaria);
+    font-size: 1.15rem;
+}
+
+.fotos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fotos__titulo{
+    font-size: 1.4rem;
+    font-weight: 700px;
+    color: var(--cor-secundaria);
+    font-family: 'Montserrat', sans-serif;
+    padding: 40px;
+}
+.fotos__fotos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+}
+
+.rodape{
+    text-align: center;
+    padding: 30px;
+    background-color: var(--cor-secundaria);
+}
+.rodape__texto{
+    padding: 10px;
+    color: var(--cor-terciaria) ;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+}
